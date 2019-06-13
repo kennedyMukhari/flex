@@ -1,0 +1,103 @@
+page-home {
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        background-color: #3F0D12;
+    }
+    .wrapper >  div {
+        border: 1px solid #3F0D12;
+        padding: 10px;
+        margin: 0.5em;
+        
+    }
+    .box-1 {
+        flex: 4;
+        background-color: #8D775F;
+    }
+    .box-2 {
+        flex:1;
+        background-color:#D5BF86;
+    }
+    .box-3 {
+        flex: 1;
+        background-color:#F1F0CC;
+    }
+    .box-4 {
+        flex:1;
+        background-color: #A71D31;
+    }
+    // -----------------------------------------------------------------------------------------------------------------------------------
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        background-color: #A9714B;
+        align-items: center;
+    }
+    #wrapper >div {
+        border: 1px solid #3F0D12;
+        padding: 10px;
+        margin: 0.5em;
+        margin-bottom:3%;
+        top: 30%; 
+    }
+    #box-1 {
+        width: 35%;
+        background-color: #54442B;
+    }
+    #box-2 {
+        width: 30%;
+        height: 30%;
+        background-color:#E8985E;
+        
+    }
+    #box-3 {
+        background-color: #C2C5BB;
+        position: relative;;
+        width: 55%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        margin: 0.5em;
+        
+        // top: 35%;
+    }
+    .wrapper-3 {
+        display: flex;
+        background-color: #16425B;
+        align-items: center;
+    }
+    .wrapper-3 > div {
+        padding: 10px;
+        margin: 0.5em;
+        bottom:2%;
+    }
+    .wrapper-3 .wrap1 {
+        background-color:#D9DCD6;
+        width: 20%;
+        height: 50px;
+    }
+    #box-3 > div {
+        // padding: 10px;
+        margin: 0.05em;
+    }
+    #box-3 .dv1 {
+        width: 70%;
+        height: 35%;
+        margin-left: 30%;
+        background-color: #81C3D7;
+    }
+    #box-3 .dv2 {
+        width: 70%;
+        height: 35%;
+        margin-left: 10%;
+        background-color: #16425B;
+    }
+    #box-3 .dv3 {
+        width: 70%;
+        height: 35%;
+        margin-left: 10%;
+        background-color: #3A7CA5;
+        align-items: center;
+    }
+}
